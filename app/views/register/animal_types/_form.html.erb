@@ -1,0 +1,46 @@
+<%= form_with(model: register_animal_type, local: true, multipart: true) do |form| %>
+  <% if register_animal_type.errors.any? %>
+    <div id="error_explanation">
+      <div class="alert alert-danger" role="alert">
+        <div class="row">
+          <h4><i class="dripicons-wrong mr-2"></i><%= pluralize(register_animal_type.errors.count, "Erro(s)") %> encontrados</h4>
+        </div>
+          <ul>
+            <% register_animal_type.errors.full_messages.each do |message| %>
+              <li><%= message %></li>
+            <% end %>
+          </ul>
+      </div>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+    <%= form.label Register::AnimalType.human_attribute_name(:nme_animal) %>
+    <%= form.text_field :nme_animal, class:"form-control" %>
+  </div>
+
+  <div class="form-group">
+    <%= form.label Register::AnimalType.human_attribute_name(:obs) %>
+    <%= form.text_area :obs, class:"form-control" %>
+  </div>
+
+  <div class="form-group" style="max-width:300px;">
+    <%= form.label Register::AnimalType.human_attribute_name(:image) %>
+    <div class="form-group">
+      <div class="input-group">
+        <input type="text" class="form-control" readonly="readonly">
+        <div class="input-group-btn">
+          <span class="fileUpload btn btn-success">
+            <span class="upl" id="upload">Salvar Arquivo</span>
+            <%= form.file_field :image, class:"upload up", id:"up", onchange:"readURL(this);" %>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="actions row btn-row">
+    <%= link_to 'Cancelar', back_url, class:"btn btn-secondary" if back_url.present? %>
+    <%= form.submit "Salvar", class:"btn btn-success ml"  %>
+  </div>
+<% end %>

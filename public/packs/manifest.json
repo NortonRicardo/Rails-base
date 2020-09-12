@@ -1,0 +1,93 @@
+{
+  "application.js": "/packs/js/application-04cc4ea5942e3c7c9ab7.js",
+  "application.js.map": "/packs/js/application-04cc4ea5942e3c7c9ab7.js.map",
+  "dashboard.js": "/packs/js/dashboard-760552281a379241d5f6.js",
+  "dashboard.js.map": "/packs/js/dashboard-760552281a379241d5f6.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-04cc4ea5942e3c7c9ab7.js"
+      ],
+      "js.map": [
+        "/packs/js/application-04cc4ea5942e3c7c9ab7.js.map"
+      ]
+    },
+    "dashboard": {
+      "js": [
+        "/packs/js/dashboard-760552281a379241d5f6.js"
+      ],
+      "js.map": [
+        "/packs/js/dashboard-760552281a379241d5f6.js.map"
+      ]
+    },
+    "file_update_imput": {
+      "js": [
+        "/packs/js/file_update_imput-ca94fe3a0f4735c448ae.js"
+      ],
+      "js.map": [
+        "/packs/js/file_update_imput-ca94fe3a0f4735c448ae.js.map"
+      ]
+    },
+    "my_datepicker": {
+      "js": [
+        "/packs/js/my_datepicker-fc9c56d7c2fd701b6dcf.js"
+      ],
+      "js.map": [
+        "/packs/js/my_datepicker-fc9c56d7c2fd701b6dcf.js.map"
+      ]
+    },
+    "my_select2": {
+      "js": [
+        "/packs/js/my_select2-345ee1b93fe81e6a11f2.js"
+      ],
+      "js.map": [
+        "/packs/js/my_select2-345ee1b93fe81e6a11f2.js.map"
+      ]
+    },
+    "sweetalert": {
+      "js": [
+        "/packs/js/sweetalert-e9fa8f25da85b2fb157b.js"
+      ],
+      "js.map": [
+        "/packs/js/sweetalert-e9fa8f25da85b2fb157b.js.map"
+      ]
+    }
+  },
+  "file_update_imput.js": "/packs/js/file_update_imput-ca94fe3a0f4735c448ae.js",
+  "file_update_imput.js.map": "/packs/js/file_update_imput-ca94fe3a0f4735c448ae.js.map",
+  "media/stylesheets/fonts/Nunito-Bold.eot": "/packs/media/stylesheets/fonts/Nunito-Bold-5ed50bbb37426587bd2c15edc0c56597.eot",
+  "media/stylesheets/fonts/Nunito-Bold.svg": "/packs/media/stylesheets/fonts/Nunito-Bold-14ee6e0972527af7765e2698e5ac6a80.svg",
+  "media/stylesheets/fonts/Nunito-Bold.ttf": "/packs/media/stylesheets/fonts/Nunito-Bold-6f47bcfc065790f02ed3cb8b51bef56f.ttf",
+  "media/stylesheets/fonts/Nunito-Bold.woff": "/packs/media/stylesheets/fonts/Nunito-Bold-aa7097dd10f758681f3b0463a308629b.woff",
+  "media/stylesheets/fonts/Nunito-Regular.eot": "/packs/media/stylesheets/fonts/Nunito-Regular-663e3719c27dbac9b8224678b5632cea.eot",
+  "media/stylesheets/fonts/Nunito-Regular.svg": "/packs/media/stylesheets/fonts/Nunito-Regular-83288e12526bea0e6436a80e51c68c96.svg",
+  "media/stylesheets/fonts/Nunito-Regular.ttf": "/packs/media/stylesheets/fonts/Nunito-Regular-65bb0a158ee1967292ee4d11079d45ae.ttf",
+  "media/stylesheets/fonts/Nunito-Regular.woff": "/packs/media/stylesheets/fonts/Nunito-Regular-0b6a4ca6f3ae3d6fa835b10169786960.woff",
+  "media/stylesheets/fonts/Nunito-SemiBold.eot": "/packs/media/stylesheets/fonts/Nunito-SemiBold-b3cbb9c96a9a4f52d454b9b5100e82f5.eot",
+  "media/stylesheets/fonts/Nunito-SemiBold.svg": "/packs/media/stylesheets/fonts/Nunito-SemiBold-22d4802ef21c8acfa9a72a2225cc3ddc.svg",
+  "media/stylesheets/fonts/Nunito-SemiBold.ttf": "/packs/media/stylesheets/fonts/Nunito-SemiBold-713ac08dfb7141494d4a69f344ff69fd.ttf",
+  "media/stylesheets/fonts/Nunito-SemiBold.woff": "/packs/media/stylesheets/fonts/Nunito-SemiBold-e7ea8f78de534e08248fe3bf9689b5fa.woff",
+  "media/stylesheets/fonts/dripicons-v2.eot": "/packs/media/stylesheets/fonts/dripicons-v2-7e12564e72400735ae5b671780f6a9f7.eot",
+  "media/stylesheets/fonts/dripicons-v2.svg": "/packs/media/stylesheets/fonts/dripicons-v2-835984438066bd8944a7692e331152a7.svg",
+  "media/stylesheets/fonts/dripicons-v2.ttf": "/packs/media/stylesheets/fonts/dripicons-v2-cf09c981aeaa8736810133ab1148e4a3.ttf",
+  "media/stylesheets/fonts/dripicons-v2.woff": "/packs/media/stylesheets/fonts/dripicons-v2-11fc83ae11617015f2fcde2065fb34d3.woff",
+  "media/stylesheets/fonts/materialdesignicons-webfont.eot?v=3.5.95": "/packs/media/stylesheets/fonts/materialdesignicons-webfont-1993c4a16cce5446a5cfafacf4da740b.eot",
+  "media/stylesheets/fonts/materialdesignicons-webfont.svg?v=3.5.95": "/packs/media/stylesheets/fonts/materialdesignicons-webfont-032eb679a327d4668d7537c32c314fbc.svg",
+  "media/stylesheets/fonts/materialdesignicons-webfont.ttf?v=3.5.95": "/packs/media/stylesheets/fonts/materialdesignicons-webfont-baded94134f273450a473a4962111324.ttf",
+  "media/stylesheets/fonts/materialdesignicons-webfont.woff2?v=3.5.95": "/packs/media/stylesheets/fonts/materialdesignicons-webfont-af3f6dbe172a9c1aba77366a2ff630d1.woff2",
+  "media/stylesheets/fonts/materialdesignicons-webfont.woff?v=3.5.95": "/packs/media/stylesheets/fonts/materialdesignicons-webfont-26333b3884782fdb5f8c0a971f1d2570.woff",
+  "media/stylesheets/fonts/summernote.eot": "/packs/media/stylesheets/fonts/summernote-a52b483f848b87d49a85f0c58ca28699.eot",
+  "media/stylesheets/fonts/summernote.ttf?": "/packs/media/stylesheets/fonts/summernote-ad2ecd48a495cc67b3b33764bee90f14.ttf",
+  "media/stylesheets/fonts/summernote.woff?": "/packs/media/stylesheets/fonts/summernote-f9b5d834b2fea5a2b440074e662c2281.woff",
+  "media/stylesheets/images/agronomicas-sementes.jpg": "/packs/media/stylesheets/images/agronomicas-sementes-3552933eae040906894248299ec8f240.jpg",
+  "media/stylesheets/images/bg-auth.jpg": "/packs/media/stylesheets/images/bg-auth-3360e9cc7a78b646b5530062294a7ebf.jpg",
+  "media/stylesheets/images/bg-pattern-light.svg": "/packs/media/stylesheets/images/bg-pattern-light-f94921455764e6306fe2494b419c4ffc.svg",
+  "media/stylesheets/images/bg-pattern.png": "/packs/media/stylesheets/images/bg-pattern-7c44ae31142b691d957b09e4ffe55c28.png",
+  "media/stylesheets/images/waves.png": "/packs/media/stylesheets/images/waves-4821d9d1cfc1a744ec335851a33b2180.png",
+  "my_datepicker.js": "/packs/js/my_datepicker-fc9c56d7c2fd701b6dcf.js",
+  "my_datepicker.js.map": "/packs/js/my_datepicker-fc9c56d7c2fd701b6dcf.js.map",
+  "my_select2.js": "/packs/js/my_select2-345ee1b93fe81e6a11f2.js",
+  "my_select2.js.map": "/packs/js/my_select2-345ee1b93fe81e6a11f2.js.map",
+  "sweetalert.js": "/packs/js/sweetalert-e9fa8f25da85b2fb157b.js",
+  "sweetalert.js.map": "/packs/js/sweetalert-e9fa8f25da85b2fb157b.js.map"
+}

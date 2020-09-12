@@ -1,0 +1,58 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-green">
+  <a class="navbar-brand" href="/">
+    <img src="<%= asset_path 'logo_p_white.png' %>" width="100">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Cadastros&nbsp;<span class="fa fa-angle-down"></span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <%= link_to "Rebanho", register_animal_types_path, method: "get", class:"dropdown-item" %>
+          <%= link_to "Raça", register_animal_types_path, method: "get", class:"dropdown-item" %>
+          <%= link_to "Tipo de Animal", register_animal_types_path, method: "get", class:"dropdown-item" %>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link 2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link 3</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown&nbsp;<span class="fa fa-angle-down"></span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+
+    <div class="form-inline my-2 my-lg-0">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+          style="display: flex;align-items: center;padding-left: 0.1rem;padding: 0.1rem!important;">
+            <img class="mr-1 rounded-circle" src="../../assets/avatar-2.jpg" width="40" alt="Generic placeholder image">
+            <h5 class="mt-0 mb-1">Risa Pearson</h5>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <%= link_to "Notificacao", notification_dashboards_path, method: "get", class:"dropdown-item" %>
+            <%= link_to "Email", teste_email_dashboards_path, method: "get", class:"dropdown-item" %>
+            <div class="dropdown-divider"></div>
+            <%= link_to "Sair", destroy_user_session_path, method: "delete", class:"dropdown-item" %>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

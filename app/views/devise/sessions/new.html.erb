@@ -1,0 +1,89 @@
+<body class="authentication-bg-im">
+<div class="account-pages mt-5 mb-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-5">
+        <div class="card">
+
+          <!-- Logo -->
+          <div class="card-header pt-4 pb-4 text-center bg-primary">
+            <a href="index.html">
+              <span><img src="<%= URL_LOGO_SITE %>" alt="" height="18"></span>
+            </a>
+          </div>
+
+              <div class="card-body p-4">
+
+                <% if notice.present? or alert.present? %>
+                  <div class="text-center w-75 m-auto">
+                    <h4 class="text-dark-50 text-center mt-0 font-weight-bold">Entar</h4>
+                    <% if notice.present? %>
+                      <p class="alert alert-warning"><%= notice %></p>
+                    <% end %>
+                    <% if alert.present? %>
+                      <p class="alert alert-warning"><%= alert %></p>
+                    <% end %>
+                  </div>
+                <% else %>
+                  <div class="text-center w-75 m-auto">
+                    <h4 class="text-dark-50 text-center mt-0 font-weight-bold">Entar</h4>
+                    <p class="text-muted mb-4">Digite seu endereço de e-mail e senha para acessar o painel de administração.</p>
+                  </div>
+                <% end %>
+
+                <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+
+                  <div class="form-group">
+                    <%= f.input :email,
+                                required: false,
+                                input_html: { autocomplete: "email", class: 'form-control', placeholder:"Entre com seu email" } %>
+                  </div>
+
+                  <div class="form-group">
+                    <%= link_to "Esqueceu?", new_password_path(resource_name), class:"text-muted float-right" %>
+                    <%= f.input :password,
+                                label: "Senha",
+                                required: false,
+                                input_html: { autocomplete: "current-password", class: 'form-control', placeholder:"Entre com sua Senha" } %>
+                  </div>
+
+                  <div class="form-group mb-3">
+                    <div class="custom-control custom-checkbox">
+                      <%= f.check_box :remember_me,
+                                      class:"custom-control-input",
+                                      id: "checkbox-signin",
+                                      checked: "checked" %>
+                      <label class="custom-control-label" for="checkbox-signin">Lembrar-me</label>
+                    </div>
+                  </div>
+
+                  <div class="form-group mb-0 text-center">
+                    <button class="btn btn-primary" type="submit">
+                      Entrar
+                    </button>
+                  </div>
+
+                <% end %>
+            </div>
+
+
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-12 text-center">
+            <p class="text-light">Não tem conta?
+              <%= link_to "Cadastre-se", new_registration_path(resource_name),
+                                         class:"text-light ml-1" %>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer footer-alt text-light">
+  2019 - 2020 © IADA - IADA.com
+</footer>
+
+</body>
